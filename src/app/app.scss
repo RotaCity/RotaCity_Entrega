@@ -1,0 +1,24 @@
+p.desc {
+    color: #636363;
+}
+
+.toolbar-background {
+    background-color: #00A3F0;
+}
+
+.toolbar-title {
+    color: #FFFFFF;
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: #00A3F0;
+    transform: scale(1.1);
+}
+
+.back-button-icon {
+    color: #FFFFFF;
+    font-size: 2.1rem !important;
+}
+.back-button-text-ios {
+    color: #FFFFFF;
+}

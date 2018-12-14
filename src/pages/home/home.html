@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPageCircuitos()">
+          <img src="assets/imgs/circuito.jpg">
+          <div class="card-title">Circuitos</div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPagePraias()">
+          <img src="assets/imgs/praia.jpg">
+          <div class="card-title">Praias</div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPageHospedagens()">
+          <img src="assets/imgs/hospedagem.jpg">
+          <div class="card-title">Hospedagem</div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPageRestaurantes()">
+          <img src="assets/imgs/restaurante.jpg">
+          <div class="card-title">Restaurantes</div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPageComidasTipicas()">
+          <img src="assets/imgs/tipica.jpg">
+          <div class="card-title">Comidas Típicas</div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-md-6 col-lg-3>
+        <ion-card (click)="goToPageLocais()">
+          <img src="assets/imgs/lugares.jpg">
+          <div class="card-title">Locais</div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Circuitos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-grid>
+          <ion-row>
+                <ion-col col-12 col-md-6 col-lg-4>
+                      <ion-card *ngFor="let user of users">
+                            <ion-card-header>
+                                  <p>{{user.titulo}}</p>
+                            </ion-card-header>
+
+                            <ion-list (click)="goToPageCircuitoPraia()">
+                                  <button ion-item>
+                                        <ion-icon name="camera" item-start></ion-icon>
+                                        <p class="p_title">{{user.sub_titulo}}</p>
+                                  </button>
+
+
+                            </ion-list>
+                      </ion-card>
+                </ion-col>
+          </ion-row>
+    </ion-grid>
+
+</ion-content>

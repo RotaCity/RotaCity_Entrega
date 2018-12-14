@@ -1,0 +1,39 @@
+page-circuto-praia {
+    .fab-ios-light {
+        color: #fff;
+        background-color: #488aff;
+    }
+
+    .title {
+        color: #606060;
+        margin: 10% 3%;
+    }
+        ion-slides {
+            height: 45%;
+    
+            img {
+                height: 100%;
+            }
+        }
+    
+        .scroll-content {
+            margin-top: 30px !important;
+        }
+
+        ion-grid {
+            ion-col {
+                margin: -4% 0 !important;
+                h1 {
+                    text-align: center;
+                    color: #606060;
+                }
+                p{
+                    padding-left: 4%;
+                    padding-right: 2%;
+                    color: #7A7A7A;
+                    font-family: inherit;
+                    margin-top: 9%;
+                }
+            }
+        }
+}

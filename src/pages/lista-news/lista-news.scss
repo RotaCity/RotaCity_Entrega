@@ -1,0 +1,24 @@
+page-lista-news {
+    .p_title {
+        color: #777777;
+        font-weight: 450;
+    }
+
+    ion-grid {
+        ion-card {
+            ion-card-header {
+                p {
+                    font-size: 16px;
+                }
+            }
+            ion-list {
+                button {
+                    ion-icon {
+                        color: #82AFFF; 
+                    }
+                }
+            }
+        }
+    }
+
+}
